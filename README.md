@@ -13,6 +13,11 @@
 * 在项目的根目录创建tsconfig.json，在ts编译为js的过程中会读该文件的配置信息。该文件必须有，不过内容可以为空`{}`，此刻所有的配置都按照默认设置来。
 * tsconfig中有非常丰富的配置项，不过该案例是用webpack接管了大部分的打包过程，比如入口文件的设置、目的路径的设置、sourcemap等都直接在webpack中，所以该项目中tsconfig只保留了ts的编译选项(compilerOptions)，[compilerOptions详细列表见](https://www.tslang.cn/docs/handbook/compiler-options.html)
 
->* [tsconfig官方配置文档]  https://www.tslang.cn/docs/handbook/tsconfig-json.html
->* [ts写node代码] https://segmentfault.com/a/1190000007574276
->* [ts官网:模块]  https://tslang.cn/docs/handbook/modules.html
+
+***
+
+> [tsconfig官方配置文档]  https://www.tslang.cn/docs/handbook/tsconfig-json.html
+
+> [ts写node代码] https://segmentfault.com/a/1190000007574276
+
+> [ts官网:模块]  https://tslang.cn/docs/handbook/modules.html
